@@ -17,6 +17,7 @@ public class PhysicsMovement
         _rotationSpeed = rotationSpeed;
         _direction = Vector3.zero;
         _jumpForce = jumpForce;
+        _lastDirection = Vector3.right;
     }
 
     public Vector3 Direction { set => _direction = value; }
@@ -26,6 +27,8 @@ public class PhysicsMovement
     {
         if (NormalizedDirection != Vector3.zero)
             _lastDirection = _direction;
+        else
+            return;
 
         _rigidbody.AddForce(NormalizedDirection * _moveSpeed, ForceMode.Force);
         ProcessRotate();

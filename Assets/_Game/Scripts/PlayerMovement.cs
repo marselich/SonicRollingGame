@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private const string HorizontalAxisName = "Horizontal";
     private const string VerticalAxisName = "Vertical";
     private const string IsRollingKey = "IsRolling";
+    private const string GroundTag = "Ground";
 
     [SerializeField] private float _moveSpeed = 30f;
     [SerializeField] private float _rotationSpeed = 100;
@@ -63,9 +64,9 @@ public class PlayerMovement : MonoBehaviour
             PhysicsMovement.ForceMove();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
-        if (collision != null)
+        if (collision.gameObject.tag == GroundTag)
             _isOnGround = true;
     }
 
