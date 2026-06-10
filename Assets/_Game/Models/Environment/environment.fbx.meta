@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 38f2548808f379548b9ad93ee236187e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_26
+    second: {fileID: 2100000, guid: d12764e4d31e99245a3c95562bfd266d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_cliff04b_02_nos.xno0
+    second: {fileID: 2100000, guid: 371b672c5b8fd3843afb1061d024c9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_cliff04b_02_nos.xno1
+    second: {fileID: 2100000, guid: c7bcdecad538c4a409aaf159d4e33fc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_cliff04b_02_nos.xno2
+    second: {fileID: 2100000, guid: 8dd842207c7477649825525703dcc8d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno0
+    second: {fileID: 2100000, guid: e8c49ecc7fd5c8848b9946faa156169f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno1
+    second: {fileID: 2100000, guid: 3c6fa878fcaaac24c9042c10e1aa3b39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno2
+    second: {fileID: 2100000, guid: d20a70294951ae6428896671df94f1f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno3
+    second: {fileID: 2100000, guid: 275a8fe535e9b614b8881bf532611e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno4
+    second: {fileID: 2100000, guid: 3bfd490bab3f6354ba352ec83068e6a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno5
+    second: {fileID: 2100000, guid: 769ede0bde3b04e46b52a16831970a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno6
+    second: {fileID: 2100000, guid: 9661b85ac59d9cf4f8ddf2d8f12f9aee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno7
+    second: {fileID: 2100000, guid: e0d8face62ca22444834f5325f5862fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall02_nos_lv1_.xno8
+    second: {fileID: 2100000, guid: edbc01f5d414d6c4da3b58420734c7fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno0
+    second: {fileID: 2100000, guid: 45b03e0ca340da14aa5997a6cd444b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno1
+    second: {fileID: 2100000, guid: 80c7592e15433a24ca2e09e4b45bf200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno2
+    second: {fileID: 2100000, guid: 6034a57ee1bd00347897a0f71026494d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno3
+    second: {fileID: 2100000, guid: 5fdfd9298709a2049948042c47de6d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno4
+    second: {fileID: 2100000, guid: 70be44eb46acb7f409e944f35a9d7b2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno6
+    second: {fileID: 2100000, guid: aa40a3bc5bef9a04f866c92b8fac0223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno7
+    second: {fileID: 2100000, guid: efaffd355254e504e97a57d14f30b407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno8
+    second: {fileID: 2100000, guid: f3d74e1cbf1a16e4e8e39e6cddeb373d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_nos_lv1_.xno9
+    second: {fileID: 2100000, guid: ba08d0fbd8a8c974e82a743ddcbfed9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno0
+    second: {fileID: 2100000, guid: 0e1c2a9daa8dae547be78dafdc0c55e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno10
+    second: {fileID: 2100000, guid: 9a666bfd1a66f1e459cfd4f14cecda9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno12
+    second: {fileID: 2100000, guid: d9a65f618859d2f4ca52835f67d7d6d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno3
+    second: {fileID: 2100000, guid: 5511ed3a25bfc174ba0c064848329ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno6
+    second: {fileID: 2100000, guid: ebaf0652a5d984348b99b0ef4d2f5c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno7
+    second: {fileID: 2100000, guid: ccb1fb92a5d0d1a4280176d81f814164, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_CastleWall_obj_nos_lv2_.xno9
+    second: {fileID: 2100000, guid: ae582f010d7aa6a48a7ddb41b72a9451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno0
+    second: {fileID: 2100000, guid: b9d6ef9179ca140419f3c20f509fbab1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno1
+    second: {fileID: 2100000, guid: 9d178670201f28a4481ef96f366e41e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno2
+    second: {fileID: 2100000, guid: 53fa21885d761454abd7582942eb594e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno3
+    second: {fileID: 2100000, guid: d661f213619ca04438bbf2a0e0b0da34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: e5195da2454df35409412caf333cd695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno5
+    second: {fileID: 2100000, guid: 6c342d148f60bab438d67b42782238d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno6
+    second: {fileID: 2100000, guid: 054c9a5a8797b664c8df9617afb4db6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar02_obj_nos_lv2_.xno7
+    second: {fileID: 2100000, guid: 69d63475178f2a1468d61389e023ada9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_Jumpbar_nos_lv1_.xno1
+    second: {fileID: 2100000, guid: 6e63f6cabca9c364e8fe08d6bb6d3ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cavecliff_nos_lv1_.xno0
+    second: {fileID: 2100000, guid: 89c09f5ed6451c349beb9c6f7cacd47f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno1
+    second: {fileID: 2100000, guid: ab6dd545f068190429d672b809432a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno10
+    second: {fileID: 2100000, guid: 3561d9f907c9d5947932efd6a0afea03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno13
+    second: {fileID: 2100000, guid: b8fcd970bb21d7346a5200e4a25e2c41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno14
+    second: {fileID: 2100000, guid: 1efb0543bac0c0549811362f76ebdb08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno15
+    second: {fileID: 2100000, guid: 0711da77149f6f547be4372e54d8087c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno16
+    second: {fileID: 2100000, guid: 70533bb89f3c5354f9f4263f89cac14d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno2
+    second: {fileID: 2100000, guid: 83f5dd4e606f2c24f80b66280f8c96cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_cirlebrdge_obj_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: 4385c231e94716a498b3b37f4904d2ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_far_cliff02wall_01_nos_lv1_.xno18
+    second: {fileID: 2100000, guid: b35297a533858254bb835f67439caa8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_far_cliff02wall_01_nos_lv1_.xno4
+    second: {fileID: 2100000, guid: 1bef4c06b72f3cc448fcac1a52522a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_far_cliff02wall_01_nos_lv1_.xno5
+    second: {fileID: 2100000, guid: 942b94a796adc8940b0e6af301780118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_far_cliff02wall_01_nos_lv1_.xno6
+    second: {fileID: 2100000, guid: 756a0eb3168bce043a968ffca26bbf46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_fartree.xno0
+    second: {fileID: 2100000, guid: 4fea00247749b264aa25e56e6d7dc35d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_fartree.xno1
+    second: {fileID: 2100000, guid: 73b49f54e9d08434daef82d47f8c954e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_farwall01_nos_.xno0
+    second: {fileID: 2100000, guid: 5b7a57e45935b0848bc2db2b0760d1f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_leaf01_lv2_.xno0
+    second: {fileID: 2100000, guid: b5e90f4026a5b694d85fa231f5fd2fc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_leaf01_nos_lv2_.xno0
+    second: {fileID: 2100000, guid: cbc9ae5f45eab604e8099fe8f2b6600a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_longshot01_nos_lv1_.xno0
+    second: {fileID: 2100000, guid: 6f2f000ec0c316d4196d7a5371b976dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno0
+    second: {fileID: 2100000, guid: ed5264f4a1e0f81429012205552a88da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno1
+    second: {fileID: 2100000, guid: 9fb7cb76dcd8a6e44989dface2e72f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno2
+    second: {fileID: 2100000, guid: 9bc11f58150acfc4ab80c12708f5237b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno3
+    second: {fileID: 2100000, guid: 9c88225cbe82d454cb2d7ea6e4693569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: ff3d1cd92bccb13479719513e6d67caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno5
+    second: {fileID: 2100000, guid: ef8c9caf1a5528c47a76d67d1004bff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant01_nos_lv2_.xno6
+    second: {fileID: 2100000, guid: 6af0bea21f835ba468694bb9423a7815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant03_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: 6c32899b0e239ab4bb4735498ce3c577, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant05_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: 1c2c304eb2d8ae54d907513f29d618b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant05_nos_lv2_.xno6
+    second: {fileID: 2100000, guid: 22b9e0200c21e344ca6c91444100563e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant06_nos_lv2_.xno2
+    second: {fileID: 2100000, guid: 4e504a28d87309c468407f3f68b0df10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant06_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: c3ccf377d3f6b6342bf81e3fd1048f87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant06_nos_lv2_.xno7
+    second: {fileID: 2100000, guid: e2233f2ccfcd49140945beb4cae86c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_mapA_plant06_nos_lv2_.xno8
+    second: {fileID: 2100000, guid: d9d5286dff6b9974b9b4cb846fc07397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_torchlight_nos_lv2_.xno0
+    second: {fileID: 2100000, guid: ec383a0864032454589a03d943f36722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_torchlight_nos_lv2_.xno2
+    second: {fileID: 2100000, guid: 40b065b12eefeee4dacb5de0b93fc844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kdv_torchlight_nos_lv2_.xno4
+    second: {fileID: 2100000, guid: f2ec46930bc07f0408edd3af7162ccd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0
+    second: {fileID: 2100000, guid: afe61135e818f4a4484d4c300eaea3b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0.001
+    second: {fileID: 2100000, guid: 67293ed42ef44bc41b3dd53d8104a00a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
