@@ -2,48 +2,64 @@ using UnityEngine;
 
 public class SonicRollingGame : MonoBehaviour
 {
-    private const string LoseText = "Вы проиграли!";
-    private const string WinText = "Вы выиграли!";
+    private const string LoseText = "Вы проиграли! ";
+    private const string WinText = "Вы выиграли! ";
 
-    [SerializeField] private Player _player;
+    [SerializeField] private RingsCollector _ringsCollector;
+    [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private float _loseTime;
-    [SerializeField] private GameObject _rings;
-
+    
     private bool _isPlaying;
-    private int _ringsCount;
     private float _gameTime;
 
-    private void Awake()
+    private void Start()
     {
-        _isPlaying = true;
-        _ringsCount = _rings.transform.childCount;
+        StartGame();
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.F))
+            StartGame();
+
         if (_isPlaying == false)
             return;
 
         _gameTime += Time.deltaTime;
-
         Debug.Log("Время игры: " + _gameTime);
 
         if (_gameTime >= _loseTime)
             Lose();
 
-        if (_player.CoinsCount == _ringsCount)
+        if (_ringsCollector.IsAllRingsCollected())
             Win();
     }
 
-    private void Lose()
+    private void StartGame()
     {
-        Debug.Log(LoseText);
-        _isPlaying = false;
+        _playerMovement.enabled = true;
+        _isPlaying = true;
+        _gameTime = 0;
+        _ringsCollector.ResetRings();
+
+        _playerMovement.StartMove();
+        _playerMovement.SetStartPosition();
     }
 
-    private void Win()
+    private void StopGame()
     {
-        Debug.Log(WinText);
         _isPlaying = false;
+        _playerMovement.StopMove();
+        _playerMovement.enabled = false;
+    }
+
+    private void Lose() => ShowEndingInfo(LoseText);
+
+    private void Win() => ShowEndingInfo(WinText);
+    
+    private void ShowEndingInfo(string text)
+    {
+        Debug.Log(text + _ringsCollector.GetInfo());
+        StopGame();
     }
 }

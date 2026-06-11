@@ -22,10 +22,12 @@ public class PhysicsMovement
 
     public Vector3 Direction { set => _direction = value; }
     public Vector3 NormalizedDirection => _direction.normalized;
+    public bool IsVelocityZero => _rigidbody.velocity == Vector3.zero;
+    public bool IsDirectionZero => NormalizedDirection == Vector3.zero;
 
     public void ForceMove()
     {
-        if (NormalizedDirection != Vector3.zero)
+        if (IsDirectionZero == false)
             _lastDirection = _direction;
         else
             return;
@@ -51,6 +53,4 @@ public class PhysicsMovement
 
         _rigidbody.rotation = Quaternion.RotateTowards(_rigidbody.rotation, lookRotation, step);
     }
-
-    public bool IsVelocityZero => _rigidbody.velocity == Vector3.zero;
 }
