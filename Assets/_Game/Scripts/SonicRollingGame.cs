@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class SonicRollingGame : MonoBehaviour
 {
-    private const string LoseText = "Вы проиграли! ";
-    private const string WinText = "Вы выиграли! ";
+    private const string LoseText = "Вы проиграли!";
+    private const string WinText = "Вы выиграли!";
 
     [SerializeField] private RingsCollector _ringsCollector;
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private float _loseTime;
-    
+
     private bool _isPlaying;
     private float _gameTime;
 
@@ -25,10 +25,9 @@ public class SonicRollingGame : MonoBehaviour
         if (_isPlaying == false)
             return;
 
-        _gameTime += Time.deltaTime;
-        Debug.Log("Время игры: " + _gameTime);
+        CountingGameTime();
 
-        if (_gameTime >= _loseTime)
+        if (CheckLose())
             Lose();
 
         if (_ringsCollector.IsAllRingsCollected())
@@ -53,13 +52,21 @@ public class SonicRollingGame : MonoBehaviour
         _playerMovement.enabled = false;
     }
 
+    private void CountingGameTime()
+    {
+        _gameTime += Time.deltaTime;
+        Debug.Log("Время игры: " + _gameTime);
+    }
+
+    private bool CheckLose() => _gameTime >= _loseTime;
+
     private void Lose() => ShowEndingInfo(LoseText);
 
     private void Win() => ShowEndingInfo(WinText);
-    
+
     private void ShowEndingInfo(string text)
     {
-        Debug.Log(text + _ringsCollector.GetInfo());
+        Debug.Log($"{text} {_ringsCollector.GetInfo()}");
         StopGame();
     }
 }

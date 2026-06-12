@@ -24,8 +24,6 @@ public class EnvironmentRotater : MonoBehaviour
             _isRotate = true;
         else
             _isRotate = false;
-
-
     }
 
     private void FixedUpdate()
@@ -33,7 +31,7 @@ public class EnvironmentRotater : MonoBehaviour
         if (_isRotate)
         {
             Quaternion rotateDirection = Quaternion.Euler(_rotateDirection * _rotationSpeed);
-            transform.rotation *= rotateDirection;
+            _rigidbody.MoveRotation(_rigidbody.rotation * rotateDirection);
         }
 
     }
