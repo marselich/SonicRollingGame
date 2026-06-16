@@ -3,6 +3,7 @@ using UnityEngine;
 public class RingsCollector : MonoBehaviour
 {
     [SerializeField] private GameObject _rings;
+    [SerializeField] private AudioSource _ringSound;
 
     private int _collectedRingsCount;
     private Ring[] _localRings;
@@ -32,6 +33,7 @@ public class RingsCollector : MonoBehaviour
         {
             _collectedRingsCount++;
             other.gameObject.SetActive(false);
+            _ringSound.Play();
             Debug.Log("Колечко собрано! Колечек: " + _collectedRingsCount);
         }
     }

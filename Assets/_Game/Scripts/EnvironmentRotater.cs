@@ -33,6 +33,5 @@ public class EnvironmentRotater : MonoBehaviour
             Quaternion rotateDirection = Quaternion.Euler(_rotateDirection * _rotationSpeed);
             _rigidbody.MoveRotation(_rigidbody.rotation * rotateDirection);
         }
-
     }
 }
